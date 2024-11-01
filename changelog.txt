@@ -1,0 +1,75 @@
+Version 3.6.3
+* Additional behavior changes for Autocomplete option
+
+Version 3.6.2
+* Autocomplete option fixes: set complete order status for 1-phase payments
+
+Version 3.6.1
+* Additional fixed in the background queue
+
+Version 3.6.0
+* YITH WooCommerce Gift Cards v4.11 fixes
+
+Version 3.5.0
+* Added "Autocomplete" option
+* Removed "Subsite" option
+
+Version 3.4.0
+* Use server configuration for curl CA
+* Updated the sdk lib
+* Geolocation detection for "International Telephone Input"
+
+Version 3.3.2
+* YITH WooCommerce Gift Cards: add tax calculation
+
+Version 3.3.1
+* Fixed the problem with HPOS activated
+
+Version 3.3.0
+* YITH WooCommerce Gift Cards support
+* Error messages improvements
+
+Version 3.2.0
+* Refund modes: by amount, by order items
+
+Version 3.1.1
+* Fixed: Don't perform online refund when manual refund is clicked
+
+Version 3.1.0
+* Removed Full refund button
+* Improved refund behavior of Refund button
+* Improved refund using "refunded" order status changing
+
+Version 3.0.0
+* Implemented interactive payment status checker on the "thank you" page
+* Added "International Telephone Input" extension (disabled by default)
+* Don't roll back order status if any error is happened
+* Fixed problem with order status changing from 'pending' to 'cancelled'
+* Special validation for StreetAddress field
+* Prevent duplicated WC refund creation
+
+Version 2.0.2
+* Fixed problem with order status changing from 'processing' to 'completed'
+
+Version 2.0.1
+* Fixed Full Refund button issues
+
+Version 2.0.0
+* Code refactoring
+* the core library was moved into the plugin
+* Payment actions bugfixes
+* Added WC Blocks support
+
+Version 1.3.0
+* Fixed problems with "Full refund" when option "Display prices in the shop" is "Including tax"
+
+Version 1.2.0
+* Update callback handling
+* Fixed problem with capture/refund
+
+Version 1.0.1
+* Title option
+* Fixed of partial actions in the admin backend
+
+Version 1.0.0
+* First public release
